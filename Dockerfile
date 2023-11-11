@@ -12,6 +12,6 @@ pip install asyncio && \
 pip install logging && \
 pip install requests 
 
-RUN git clone 
+RUN git clone https://github.com/Slavunia13/Helpers/app
 
-CMD ["python", "test.py"]
+CMD ["python", "main.py"]
